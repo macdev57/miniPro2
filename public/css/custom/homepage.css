@@ -1,0 +1,136 @@
+.img-logo {
+  height:48px;
+  width:50px;
+  margin-right:10px;
+}
+
+.bg-c-098 {
+  background:#6366f1;
+}
+
+.text-sec {
+  color:#334155;
+}
+
+.navbar {
+  margin:0;
+  display:flex;
+  margin-left:5px;
+  margin-right:5px;
+  list-style:none;
+}
+
+.ltr-spacing {
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+}
+.toggle-button {
+  position:absolute;
+  top:.75rem;
+  right:2rem;
+  display:none;
+  flex-direction:column;
+  justify-content:space-between;
+  width:30px;
+  height:20px;
+} 
+.toggle-button .bar  {
+  height:3px;
+  width:100%;
+  background-color:white;
+  border-radius:10px;
+}
+
+.ad-097 {
+  width:100%;
+}
+
+.hov-001:hover {
+  background:#94a3b8;
+  border-top:1px solid lime;
+}
+
+/*----- media @here----*/
+
+@media (max-width:1000px) {
+  .toggle-button {
+    display:flex;
+    margin-top:15px;
+    margin-right:20px;
+  }
+
+  .nav-med-254 {
+    display:none;
+  }
+
+  .fon-style {
+    margin-top:5px;
+    padding-right:70%;
+  }
+
+  .nav-1 {
+    display:none;
+    width:100%;
+  }
+
+  .navbar {
+    flex-direction:column;
+    
+  }
+
+  .container {
+    width:100%;
+    margin-left:20px;
+    flex-direction:column;
+    align-items:flex-start;
+  }
+  .navbar-links li {
+    text-align:center;
+  }
+
+  
+  .navbar a {
+    padding:.5rem 1.5rem;
+  }
+
+  .navbar.active {
+    display:flex;
+  }
+}
+
+.log-img {
+  width: 100%;
+  height: auto;
+}
+
+/* card sections--*/
+
+#te-xt-align {
+    text-align:center;
+}
+
+.btn-align-00005 {
+    align-content:center;
+}
+/* dicover coron section */
+.img-coron {
+    width:450px;
+    height:320px;
+}
+
+.aln-00006 {
+  text-align:center;
+}
+/*Footer*/
+/*socials*/
+.soc{
+  height:50px;
+  width:54px;
+}
+.bg-0008 {
+  background:#6366f1;
+}
+
+.rig-pad {
+  margin-right:15px;
+}
